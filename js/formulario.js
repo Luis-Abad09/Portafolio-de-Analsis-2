@@ -5,7 +5,7 @@ const email = document.getElementById("email");
 const textArea = document.getElementById("text-area");
 
 btnEnviar.addEventListener('click', e =>{
-    e.preventDefault();
+    // e.preventDefault();
 
     nombre.value = ""
     apellido.value = ""
