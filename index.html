@@ -160,11 +160,12 @@
                 </div>
                 <div class="form-container">
                     <form name="formulario-contacto" netlify>
-                        <input type="text" placeholder="Nombre">
-                        <input id="apellido" type="text" placeholder="Apellido">
-                        <input type="email" placeholder="Correo">
-                        <textarea placeholder="Mensaje"></textarea>
-                        <button>Enviar</button>
+                        <input name="nombre" type="text" placeholder="Nombre">
+                        <!-- <input id="apellido" type="text" placeholder="Apellido"> -->
+                        <input name="email" type="email" placeholder="Correo">
+                        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                        <!-- <button>Enviar</button> -->
+                        <input id="btn-enviar" type="submit" value="Enviar">
                     </form>
                 </div>
             </div>
@@ -183,5 +184,6 @@
     <script src="/js/sticky.js"></script>
     <script src="https://kit.fontawesome.com/3996994ccc.js" crossorigin="anonymous"></script>
     <script src="/js/menu.js"></script>
+    <script src="/js/formulario.js"></script>
 </body>
 </html>

@@ -471,6 +471,12 @@ input, textarea {
     transition: all 0.3s ease-in;
 }
 
+#btn-enviar {
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
 textarea {
     height: 120px;
 }
