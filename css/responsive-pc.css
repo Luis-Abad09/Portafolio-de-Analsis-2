@@ -1,0 +1,117 @@
+@media (max-width:1400px) {
+    /* ------------------------------------------------------------------------------------- */
+    /* Header */
+    li {
+        list-style: none;
+        margin-right: 10px;
+    }
+    /* ------------------------------------------------------------------------------------- */
+    /* Hero */
+    .hero-description {
+        margin-left: 75px;
+        padding-top: 300px;
+    }
+    h1 {
+        font-size: 7rem;
+    }
+    .h2 {
+        font-size: 2.4rem;
+    }
+
+    /* ------------------------------------------------------------------------------------- */
+    /* Section Generals */
+    .section-container {
+        width: 90vw;
+        height: 90vh;
+    }
+    .title-section {
+        margin-top: 30px;
+    }
+
+    /* ------------------------------------------------------------------------------------- */
+    /* Section 1 */
+    .section1-container {
+        margin-top: 50px;
+    }
+    .section1 .section1-description {
+        height: 55vh;
+        padding: 30px;
+        position: relative;
+    }
+    .section1 .section1-about {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1.7rem;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .section1 .section1-about {
+        margin-bottom: 30px;
+    }
+    .section1-skills-container {
+        margin-bottom: 40px;
+    }
+    .skills-number {
+        font-size: 4.8rem;
+    }
+    .skills-paragraph {
+        font-size: 1.7rem;
+    }
+    .button {
+        /* margin-bottom: 30px; */
+    }
+    .button a {
+        padding: 10px 30px;
+        font-size: 1.6rem;
+    }
+    
+    .button a:hover {
+        transform: scale(1.2);
+    }
+    /* ------------------------------------------------------------------------------------- */
+    /* Section 2 */
+    .section2 {
+        height: 176vh;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 50%;
+    }
+    /* ------------------------------------------------------------------------------------- */
+    /* Section 3 */
+    .form-container {
+        padding-top: 25px;
+        margin-top: 30px;
+        height: 80%;
+    }
+    input, textarea {
+        padding: 12px 0;
+        margin: 12px 60px;
+    }
+    textarea {
+        height: 100px;
+    }
+    button {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        width: 150px;   
+        padding: 15px;
+    }
+    button:hover {
+        transform: scale(1.15);
+    }
+    /* #apellido {
+        display: none;
+    } */
+
+    /* ------------------------------------------------------------------------------------------------------------------ */
+    /* Section 4 */
+    .section4 {
+        height: 100px;
+    }
+}
+/* --------------------------------------------------------------------------------------------- */
